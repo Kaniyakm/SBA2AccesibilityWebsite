@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Design Co.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/100x50" alt="Accessible Design Co. logo">
+    <nav role="navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <h1>Designing for Everyone</h1>
+      <p>Inclusive, accessible digital experiences.</p>
+      <button aria-label="Learn more about our services">Learn More</button>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>We make websites and apps accessible for everyone. Our goal is to ensure equal access for all users through thoughtful, inclusive design.</p>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="service">
+        <h3>Accessibility Audits</h3>
+        <p>We review digital content to meet accessibility standards.</p>
+      </div>
+      <div class="service">
+        <h3>Accessible Design</h3>
+        <p>We design interfaces that include everyone from the start.</p>
+      </div>
+      <div class="service">
+        
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; October 2025 Accessible Design Co.</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
